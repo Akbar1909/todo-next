@@ -4,7 +4,7 @@ import Counter from "./_components/Counter";
 
 export const revalidate = 0;
 
-const ProfilePage = () => {
+const ProfilePage = async () => {
   return (
     <div>
       <h1>Profile Page</h1>
@@ -12,6 +12,7 @@ const ProfilePage = () => {
       <Link href="/dashboard/settings">Link</Link>
       <SearchBar />
       {Date.now()}
+      test
     </div>
   );
 };
