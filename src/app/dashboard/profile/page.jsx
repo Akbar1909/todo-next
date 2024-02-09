@@ -2,6 +2,8 @@ import Link from "next/link";
 import SearchBar from "./_components/SearchBar";
 import Counter from "./_components/Counter";
 
+export const revalidate = 0;
+
 const ProfilePage = () => {
   return (
     <div>
